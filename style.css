@@ -1,0 +1,16 @@
+/*
+ Theme Name:   NE Journal
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Dazzling Child Theme
+ Author:       Joel Carlos
+ Author URI:   http://example.com
+ Template:     dazzling
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url("../dazzling/style.css");
+@import url("inc/css/application.css");
+@import url("inc/css/default.css");
+

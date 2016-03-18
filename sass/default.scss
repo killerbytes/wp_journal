@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+$color-blue: #005a8c;
+@import "navigation";
+@import "gallery";
+@import "slider";
+
+body{
+	font-family: "Helvetica";
+}
+// a {
+//   color: $color-blue;
+// }
+// a:hover,
+// a:focus {
+//   color: $color-blue;
+//   text-decoration: underline;
+// }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Oswald', sans-serif;	
+}
+
+.margin-bottom-20{ margin-bottom: 20px; }
+
+.post-thumbnail{
+	width: 100%;
+}
+.btn{
+	font-family: 'Oswald', sans-serif;	
+	background-color: $color-blue;
+	border-radius: 0 !important;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+.widget-sub-title{
+	margin-bottom: 20px;
+}
+
+#social{
+	float: left;
+	background-color: $color-blue;
+}
+
+@media (max-width: 768px) {
+	.navbar-collapse {
+		padding: 0;
+	}
+	#menu-main{
+		margin: 0;
+	}
+}
